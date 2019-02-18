@@ -14,7 +14,7 @@ require 'savon'
 class BingTranslator
   WSDL_URI = 'http://api.microsofttranslator.com/V2/soap.svc?wsdl'.freeze
   NAMESPACE_URI = 'http://api.microsofttranslator.com/V2'.freeze
-  COGNITIVE_ACCESS_TOKEN_URI = URI.parse('https://api.cognitive.microsoft.com/sts/v1.0/issueToken').freeze
+  COGNITIVE_ACCESS_TOKEN_URI = URI.parse('https://uksouth.api.cognitive.microsoft.com/sts/v1.0/issueToken').freeze
 
   class Exception < StandardError; end
 
